@@ -185,48 +185,6 @@ Você precisa tirar print de:
 
 ### ✔️ Livros (sem dados)
 
-💡 Dica: use dados fictícios bonitinhos tipo:
-
-* Nome: Ana Souza
-* Livro: “Dom Casmurro”
-
----
-
-# 💡 7. Organização sugerida para apresentação
-
-### 🗂️ Slide 1 — Introdução
-
-* Nome do projeto
-* Integrantes
-
-### 🗂️ Slide 2 — Objetivo
-
-* Aplicar conceitos de programação e Django
-
-### 🗂️ Slide 3 — Conteúdos aprendidos
-
-* Listas
-* Lógica
-* Web
-
-### 🗂️ Slide 4 — Exercícios
-
-* Mostrar exemplos
-
-### 🗂️ Slide 5 — Sistema Django
-
-* Explicar funcionalidades
-
-### 🗂️ Slide 6 — Demonstração
-
-* Prints
-
-### 🗂️ Slide 7 — Conclusão
-
-* O que aprenderam
-
----
-
 # 💻 8. (EXTRA) Exemplo simples de código – lista
 
 ```python
