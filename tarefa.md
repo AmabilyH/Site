@@ -71,6 +71,63 @@ Básico a intermediário — já conseguimos criar um CRUD simples.
 
 ---
 
+#🧠 3.1 Frameworks estudados
+
+Durante a disciplina, também foram introduzidos frameworks modernos, tanto para back-end quanto front-end:
+
+##🌐 🔹 Back-end
+*⚙️ Django
+Framework web em Python
+Utilizado para criar sistemas completos (CRUD)
+Baseado no padrão MVT (Model-View-Template)
+*📌 O que aprendemos:
+Criar projetos e apps
+Trabalhar com models.py, views.py, urls.py
+Conectar banco de dados
+Criar páginas dinâmicas
+*⚙️ Node.js
+Ambiente de execução JavaScript no servidor
+Permite criar aplicações back-end com JS
+*📌 O que aprendemos:
+Conceito de servidor
+Execução de código JS fora do navegador
+Base para APIs
+###🎨 🔹 Front-end
+*🎨 Bootstrap
+Framework CSS para estilização rápida
+Sistema de grid (layout responsivo)
+*📌 O que aprendemos:
+Uso de classes prontas
+Criação de layouts responsivos
+Botões, formulários e componentes visuais
+*🎨 Materialize
+Framework baseado no Material Design (Google)
+Interface moderna e animada
+*📌 O que aprendemos:
+Componentes estilizados
+Animações e interações
+Formulários mais visuais
+
+---
+
+#📈 3.2 Nível de aprendizado
+###🔹 Back-end:
+Django → Intermediário (CRUD funcionando)
+Node.js → Básico (conceitos iniciais)
+###🔹 Front-end:
+Bootstrap → Intermediário
+Materialize → Básico a intermediário
+
+---
+
+#🧩 3.3 Integração dos conhecimentos
+
+Durante o desenvolvimento do projeto:
+
+Usamos Django para lógica e banco de dados
+Usamos Bootstrap/Materialize para interface
+Entendemos como o front-end se comunica com o back-end
+
 # 🏗️ 4. Estrutura do Projeto
 
 ### 📁 Arquivos principais:
@@ -85,63 +142,6 @@ Básico a intermediário — já conseguimos criar um CRUD simples.
   * `livros.html`
 
 ---
-
-🧠 3.1 Frameworks estudados
-
-Durante a disciplina, também foram introduzidos frameworks modernos, tanto para back-end quanto front-end:
-
-🌐 🔹 Back-end
-⚙️ Django
-Framework web em Python
-Utilizado para criar sistemas completos (CRUD)
-Baseado no padrão MVT (Model-View-Template)
-📌 O que aprendemos:
-Criar projetos e apps
-Trabalhar com models.py, views.py, urls.py
-Conectar banco de dados
-Criar páginas dinâmicas
-⚙️ Node.js
-Ambiente de execução JavaScript no servidor
-Permite criar aplicações back-end com JS
-📌 O que aprendemos:
-Conceito de servidor
-Execução de código JS fora do navegador
-Base para APIs
-🎨 🔹 Front-end
-🎨 Bootstrap
-Framework CSS para estilização rápida
-Sistema de grid (layout responsivo)
-📌 O que aprendemos:
-Uso de classes prontas
-Criação de layouts responsivos
-Botões, formulários e componentes visuais
-🎨 Materialize
-Framework baseado no Material Design (Google)
-Interface moderna e animada
-📌 O que aprendemos:
-Componentes estilizados
-Animações e interações
-Formulários mais visuais
-
----
-
-📈 3.2 Nível de aprendizado
-🔹 Back-end:
-Django → Intermediário (CRUD funcionando)
-Node.js → Básico (conceitos iniciais)
-🔹 Front-end:
-Bootstrap → Intermediário
-Materialize → Básico a intermediário
-
----
-
-🧩 3.3 Integração dos conhecimentos
-
-Durante o desenvolvimento do projeto:
-
-Usamos Django para lógica e banco de dados
-Usamos Bootstrap/Materialize para interface
-Entendemos como o front-end se comunica com o back-end
 
 # 🧩 5. Funcionalidades já implementadas
 
