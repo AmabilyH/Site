@@ -174,13 +174,3 @@ for i in range(5):
 
 print("Números:", numeros)
 ```
-
----
-
-# 🎯 9. Conclusão (para falar na apresentação)
-
-Vocês podem dizer algo assim:
-
-> Durante a disciplina, desenvolvemos habilidades em lógica de programação e manipulação de dados com listas, além de iniciar o desenvolvimento web com Django, criando um sistema funcional com cadastro, consulta e exclusão de dados.
-
-👉 “quero o projeto Django completo”
