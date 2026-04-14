@@ -1,7 +1,3 @@
-Beleza — isso aqui é basicamente um **relatório de progresso + lista de exercícios + início de um sistema em Django**. Vou organizar tudo pra você já poder **entregar de forma profissional**, como o professor pediu 👇
-
----
-
 # 📊 RELATÓRIO DE PROGRESSO
 
 ## 🧠 1. Conteúdos já estudados
@@ -187,17 +183,4 @@ Vocês podem dizer algo assim:
 
 > Durante a disciplina, desenvolvemos habilidades em lógica de programação e manipulação de dados com listas, além de iniciar o desenvolvimento web com Django, criando um sistema funcional com cadastro, consulta e exclusão de dados.
 
----
-
-# 🚀 Se quiser melhorar MUITO sua apresentação
-
-Posso te ajudar a:
-
-* Criar os **slides prontos (bonitos estilo Canva/Gamma)**
-* Montar **todo o código Django completo certinho**
-* Resolver **todos os 13 exercícios em Python**
-* Criar um **design mais bonito das páginas HTML (nível Pinterest)**
-
-Só me diz:
-👉 “quero os exercícios resolvidos” ou
 👉 “quero o projeto Django completo”
