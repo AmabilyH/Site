@@ -76,33 +76,41 @@ Básico a intermediário — já conseguimos criar um CRUD simples.
 Durante a disciplina, também foram introduzidos frameworks modernos, tanto para back-end quanto front-end:
 
 ##🌐 🔹 Back-end
+
 *⚙️ Django
 Framework web em Python
 Utilizado para criar sistemas completos (CRUD)
 Baseado no padrão MVT (Model-View-Template)
+
 *📌 O que aprendemos:
 Criar projetos e apps
 Trabalhar com models.py, views.py, urls.py
 Conectar banco de dados
 Criar páginas dinâmicas
+
 *⚙️ Node.js
 Ambiente de execução JavaScript no servidor
 Permite criar aplicações back-end com JS
+
 *📌 O que aprendemos:
 Conceito de servidor
 Execução de código JS fora do navegador
 Base para APIs
 ###🎨 🔹 Front-end
+
 *🎨 Bootstrap
 Framework CSS para estilização rápida
 Sistema de grid (layout responsivo)
+
 *📌 O que aprendemos:
 Uso de classes prontas
 Criação de layouts responsivos
 Botões, formulários e componentes visuais
+
 *🎨 Materialize
 Framework baseado no Material Design (Google)
 Interface moderna e animada
+
 *📌 O que aprendemos:
 Componentes estilizados
 Animações e interações
