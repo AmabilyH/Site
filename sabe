@@ -1,0 +1,78 @@
+import androidx.compose.animation.AnimatedVisibility
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.material.Button
+import androidx.compose.material.MaterialTheme
+import androidx.compose.material.Text
+import androidx.compose.runtime.*
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.ExperimentalComposeUiApi
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.window.ComposeViewport
+import kotlinx.browser.document
+
+@OptIn(ExperimentalComposeUiApi::class)
+fun main() {
+    ComposeViewport(document.body!!) {
+        App()
+    }
+}
+
+@Composable
+fun App() {
+    MaterialTheme {
+        var showContent by remember { mutableStateOf(false) }
+        Column(
+            modifier = Modifier
+                .fillMaxSize(),
+            horizontalAlignment = Alignment.CenterHorizontally,
+        ) {
+            Button(onClick = { showContent = !showContent }) {
+                Text("Click me!")
+            }
+            AnimatedVisibility(showContent) {
+                val greeting = remember { Greeting().greet() }
+                Column(
+                    modifier = Modifier.fillMaxWidth(),
+                    horizontalAlignment = Alignment.CenterHorizontally,
+                ) {
+                    Text("Compose: $greeting")
+                }
+            }
+        }
+    }
+}
+
+data class itemCompra(val id: Int, val nome: String, var comprado : Boolean = false)
+
+@Composable
+fun ListaComprasScreen(modifier: Modifier = Modifier){
+   
+    val listaItens = remember {
+            mutableListOf(
+              ItemCompra(1, "arroz")
+              ItemCompra(2, "Carne")
+              ItemCompra(3, "feijao")
+    )
+    }
+    LazyColumn(modifier: Modifier = Modifier,
+               contentPadding = PaddingValues(16.dp)){
+        items(items = listaIntes, key = { item -> item.id}){
+            item -> ItemCompraRow(item = ite)
+        }
+    }
+}
+@composable
+private fun ItemCompraRow(item: ItemCompra,
+                         onCompradoChange: (Boolean)-> Unit){
+    RoW{
+        CheckBox(
+            checked = item.comprado
+            onCheckedChange = onCompradoChange 
+        )
+        Text(
+            
+        )
+    }
+}
